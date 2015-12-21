@@ -1,0 +1,70 @@
+/*colors to use: dark blue:41,52,71,light blue 48,125,200, bluegreen38,157,48,offwhite 208,215,202 peachy 229,91,78*/
+h1{
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	margin-bottom: 0;
+	border-bottom: 2px solid rgb(229,91,78);
+	width: 43%;
+}
+@font-face{
+	font-family: myFont;
+}
+body{
+	background-color: rgb(48,125,200);
+}
+ul{
+	list-style-type: square;
+}
+li{
+	color:rgb(229,91,78);
+}
+h3{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+}
+a{
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	text-decoration: none;
+	color:rgb(208,215,202);
+}
+.resume_div{
+	float:right !important;
+	font-size: 100pt !important;
+}
+a:hover {
+    text-decoration: underline;
+}
+.header{
+	color:rgb(208,215,202);
+	margin-right: auto;
+	margin-left: auto;
+}
+.links{
+	padding-bottom: 5px;
+	margin-left: 2px;
+
+}
+.links li{
+	display: inline;
+}
+.me{
+	margin-top: .5%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: .5%;
+}
+.things{
+	vertical-align: text-top;
+	color:rgb(208,215,202);
+	text-align: center;
+}
+.things li{
+	display: inline;
+}
+.fill{
+	width:25px;
+}
+.blog{
+	padding-top: 30px;
+	font-size: 30px;
+}
